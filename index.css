@@ -20,6 +20,19 @@ a:visited,a:link{
 }
 a:hover{
   color: yellow;
+  
+}
+.pic-center{
+	display: block;
+	border-radius: 6px;
+	margin: 16px auto;
+}
+.pic-left{
+	margin-right: 20px;
+	float: left;
+}
+.clear{
+	clear: left;
 }
 /*The menu bar is quoted from the sample code on wattle*/
 #menu {
@@ -75,6 +88,7 @@ input[type=submit]{
   padding: 12px 40px 12px;
   border: none;
   border-radius: 6px;
+  font-size: 16px;
   cursor: pointer;
   float: right;
 }
