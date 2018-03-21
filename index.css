@@ -28,6 +28,7 @@ a:hover{
 	margin: 16px auto;
 }
 .pic-left{
+	margin-left: 60px;
 	margin-right: 20px;
 	float: left;
 }
@@ -90,7 +91,16 @@ input[type=submit]{
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
-  float: right;
+}
+input[type=reset]{
+  margin-top: 6px;
+  background-color: #33cc33;
+  color: white;
+  padding: 12px 40px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
 }
 .container {
     border-radius: 5px;
@@ -119,4 +129,9 @@ input[type=submit]{
         width: 100%;
         margin-top: 0;
     }
+}
+#passion table, td, th{
+	border : 1px solid white;
+	align: center;
+	margin: 0px auto;
 }
