@@ -27,6 +27,14 @@ a:hover{
 	border-radius: 6px;
 	margin: 16px auto;
 }
+<<<<<<< HEAD
+=======
+.pic-left{
+	margin-left: 60px;
+	margin-right: 20px;
+	float: left;
+}
+>>>>>>> 7eefa63eaf85dda8b3e73cffcbc76b3639d422ab
 .clear{
 	clear: left;
 }

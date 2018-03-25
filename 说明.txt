@@ -1,0 +1,7 @@
+Assignment 1. 
+目前剩余工作，将index.html中的三个图片位置固定
+最上方的图片固定于也页面中间（已解决，Assignment2中可能需要更新为滚动播放的图片）
+中间的图片和最下面的图片排列整齐，固定于页面左侧，右侧将添加文字。
+Assigment 2&3. 参见ppt和assignment.html。
+文字部分的内容更新会直接push到github
+https://github.com/YihuaLiang/love_tennis
