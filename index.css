@@ -3,9 +3,6 @@ h1,h2,h3{/*set up the heading format*/
    font-weight: bold;
    color: #33cc33;
 }
-p {/*set up font in paragraph*/
-  font-family: Times New Roman, Times,Arial, Helvetica, Geneva,sans serif;
-}
 body {/*set up background and font color*/
   background-image : url("Materials/Texture/background-index.jpg");
   color: white;
@@ -27,35 +24,30 @@ a:hover{
 	border-radius: 6px;
 	margin: 16px auto;
 }
-<<<<<<< HEAD
-=======
-.pic-left{
-	margin-left: 60px;
-	margin-right: 20px;
-	float: left;
-}
->>>>>>> 7eefa63eaf85dda8b3e73cffcbc76b3639d422ab
 .clear{
 	clear: left;
 }
 
 /*control the picture on the left*/
-.pic-tennis{
+#pic-tennis{
     line-height: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     float:left;
 }
 
-.pic-tennis img{
-    width:45%;
+#pic-tennis img{
+    width:35%;
     float:left;
+    margin-left: 100px;
+    margin-right: 40px;
 }
 /*for the paragraph on the right of picture*/
-#pic-content{
+#pic-tennis p{
     float:left;
-    margin-left: 20px;
+    margin-left: 40px;
     width:45%;
     word-wrap:break-word;
+    font-size: 16px;
 }
 /*The menu bar is quoted from the sample code on wattle*/
 #menu {
@@ -152,8 +144,20 @@ input[type=reset]{
         margin-top: 0;
     }
 }
-#passion table, td, th{
+.general_table table, td, th{
 	border : 1px solid white;
 	align: center;
 	margin: 0px auto;
+}
+#sourcelog{
+  background-color: #e1e1d0;/*menu's background-color*/
+  border-radius: 6px;/*radius on the angel of the rectangular*/
+  width: 80%;
+  align: center;
+  margin: 0px auto;
+}
+#sourcelog table,td,th{
+  align: center;
+  margin: 0px auto;
+  border: none;
 }
