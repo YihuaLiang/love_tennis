@@ -9,7 +9,6 @@ p {/*set up font in paragraph*/
 body {/*set up background and font color*/
   background-image : url("Materials/Texture/background-index.jpg");
   color: white;
-  text-align: center;
 }
 /*set up the link color and decoration*/
 a{
@@ -20,19 +19,35 @@ a:visited,a:link{
 }
 a:hover{
   color: yellow;
-  
+
 }
 .pic-center{
+    text-align:center;
 	display: block;
 	border-radius: 6px;
 	margin: 16px auto;
 }
-.pic-left{
-	margin-right: 20px;
-	float: left;
-}
 .clear{
 	clear: left;
+}
+
+/*control the picture on the left*/
+.pic-tennis{
+    line-height: 20px;
+    margin-left: 10px;
+    float:left;
+}
+
+.pic-tennis img{
+    width:45%;
+    float:left;
+}
+/*for the paragraph on the right of picture*/
+#pic-content{
+    float:left;
+    margin-left: 20px;
+    width:45%;
+    word-wrap:break-word;
 }
 /*The menu bar is quoted from the sample code on wattle*/
 #menu {
@@ -90,7 +105,16 @@ input[type=submit]{
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
-  float: right;
+}
+input[type=reset]{
+  margin-top: 6px;
+  background-color: #33cc33;
+  color: white;
+  padding: 12px 40px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
 }
 .container {
     border-radius: 5px;
@@ -119,4 +143,9 @@ input[type=submit]{
         width: 100%;
         margin-top: 0;
     }
+}
+#passion table, td, th{
+	border : 1px solid white;
+	align: center;
+	margin: 0px auto;
 }
