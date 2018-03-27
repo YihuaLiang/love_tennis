@@ -8,15 +8,13 @@ body {/*set up background and font color*/
   color: white;
 }
 /*set up the link color and decoration*/
-a{
-  text-decoration: none;
-}
 a:visited,a:link{
   color:purple;
+  text-decoration: none;
 }
 a:hover{
-  color: yellow;
-
+  color: green;
+  text-decoration: none;
 }
 .pic-center{
     text-align:center;
@@ -71,25 +69,14 @@ a:hover{
 /*set up the footer format*/
 #bottombar{
   width:100%;
-  height: 66px;
-  background-color: #c2c2a3;
+  background-color: #e1e1d0;
   color: blue;
   border-radius: 8px;
 }
 #bottombar footer{
     text-align: center;
     /* text-shadow: 2px 2px #000000;*/
-    padding: 2px 0px;/* the vertical position*/
-}
-#bottombar table,th,tr,td{
-  align-content: center;
-  margin: 0px auto;
-  border: none;
-  font-size: 16px;
-}
-#bottombar caption{
-  font-size: 20px;
-  color: blue;
+    padding: 6px 0px 6px 0px;/* the vertical position*/
 }
 /*set up the form format*/
 /*following the resources on w3school*/
@@ -165,8 +152,13 @@ input[type=reset]{
   align: center;
   margin: 0px auto;
 }
-.sourcelog table,td,th{
-  align: center;
+.sourcelog table,td,th,tr{
+  align-content: center;
   margin: 0px auto;
   border: none;
+  font-size: 16px;
+}
+.sourcelog caption{
+  font-size: 20px;
+  font-weight: bold;
 }
