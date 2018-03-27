@@ -3,6 +3,9 @@ h1,h2,h3{/*set up the heading format*/
    font-weight: bold;
    color: #33cc33;
 }
+.center_align{
+  text-align: center;
+}
 body {/*set up background and font color*/
   background-image : url("Materials/Texture/background-index.jpg");
   color: white;
@@ -112,7 +115,7 @@ input[type=reset]{
   font-size: 16px;
   cursor: pointer;
 }
-.container {
+.form_container {
     border-radius: 5px;
     background-color: #c2c2a3;
     padding: 18px;
@@ -140,25 +143,30 @@ input[type=reset]{
         margin-top: 0;
     }
 }
-.general_table table, td, th{
-	border : 1px solid white;
+.general_table table, td, th, tr{
+	border : 4px solid;
 	align: center;
 	margin: 0px auto;
+  background-color: #e1e1d0;
+  radius:2px;
+  text-align: center;
+  border-radius: 6px
 }
-.sourcelog{
+.no_border{
   background-color: #e1e1d0;/*menu's background-color*/
   border-radius: 6px;/*radius on the angel of the rectangular*/
   width: 80%;
   align: center;
   margin: 0px auto;
 }
-.sourcelog table,td,th,tr{
+.no_border table,td,th,tr{
   align-content: center;
   margin: 0px auto;
   border: none;
   font-size: 16px;
+  color: green;
 }
-.sourcelog caption{
+.no_border caption{
   font-size: 20px;
   font-weight: bold;
 }
