@@ -1,3 +1,5 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
 h1,h2,h3{/*set up the heading format*/
    text-align: center;
    font-weight: bold;
@@ -5,30 +7,60 @@ h1,h2,h3{/*set up the heading format*/
 }
 .center_align{
   text-align: center;
-}
-body {/*set up background and font color*/
-  background-image : url("Materials/Texture/background-index.jpg");
   color: white;
 }
+body {/*set up background and font color*/
+  background-image : url("Materials/background-index.jpg");
+}
 /*set up the link color and decoration*/
-a:visited,a:link{
+.normal_link a:visited,a:link{
   color:purple;
   text-decoration: none;
 }
-a:hover{
+.normal_link a:hover{
   color: green;
   text-decoration: none;
 }
 .pic-center{
-    text-align:center;
+  text-align:center;
 	display: block;
 	border-radius: 6px;
-	margin: 16px auto;
+	margin: 30px auto;
+}
+.pic-center canvas{
+  margin: 0px 20px 0px 0px;
+  padding: 0px 20px 0px 0px;
 }
 .clear{
 	clear: left;
 }
 
+/*control the photo gallery*/
+.gallery_block{
+  text-align: center;
+  margin: 10px auto;
+  padding-left: 60px;
+  width: 1060px;
+}
+.gallery{
+  margin: 21px;
+  border 1px solid #ccc;
+  float: left;
+  width: 200px;
+  background-color: #e1e1d0;
+  border-radius: 4px;
+}
+
+.gallery img{
+  width: 100%;
+  height:auto;
+}
+
+.desc{
+  padding: 15px;
+  text-align: center;
+  color: blue;
+}
 /*control the picture on the left*/
 #pic-tennis{
     line-height: 20px;
@@ -49,6 +81,7 @@ a:hover{
     width:45%;
     word-wrap:break-word;
     font-size: 16px;
+    color: white;
 }
 /*The menu bar is quoted from the sample code on wattle*/
 #menu {
@@ -59,6 +92,7 @@ a:hover{
   font-weight: bold;
   background-color: #e1e1d0;/*menu's background-color*/
   border-radius: 6px;/*radius on the angel of the rectangular*/
+  margin: 15px auto;
 }
 #menu ul{
   text-align: center;/*set up the text position*/
@@ -71,6 +105,7 @@ a:hover{
 }
 /*set up the footer format*/
 #bottombar{
+  margin: 15px auto;
   width:100%;
   background-color: #e1e1d0;
   color: blue;
@@ -115,6 +150,17 @@ input[type=reset]{
   font-size: 16px;
   cursor: pointer;
 }
+input[type=button]{
+  margin-top: 3px;
+  margin-left: 5px;
+  background-color: #33cc33;
+  color: white;
+  padding: 8px 30px 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
 .form_container {
     border-radius: 5px;
     background-color: #c2c2a3;
@@ -143,21 +189,25 @@ input[type=reset]{
         margin-top: 0;
     }
 }
-.general_table table, td, th, tr{
-	border : 4px solid;
+.general_table table,tr,th,td{
+	border : 1px solid black;
 	align: center;
-	margin: 0px auto;
+	margin: 10px auto;
   background-color: #e1e1d0;
   radius:2px;
   text-align: center;
   border-radius: 6px
+}
+.general_table td{
+  border : 1px solid black;
 }
 .no_border{
   background-color: #e1e1d0;/*menu's background-color*/
   border-radius: 6px;/*radius on the angel of the rectangular*/
   width: 80%;
   align: center;
-  margin: 0px auto;
+  margin: 10px auto;
+  padding: 10px auto;
 }
 .no_border table,td,th,tr{
   align-content: center;
@@ -169,4 +219,82 @@ input[type=reset]{
 .no_border caption{
   font-size: 20px;
   font-weight: bold;
+}
+
+/*set video style*/
+video{
+  width: 360px;
+  height: 270px;
+}
+.video_block{
+    background-color: #e1e1d0;
+    margin: 20px auto 20px auto;
+    border-width: 1px;
+    height: auto;
+    width: 1060px;
+    padding:10px;
+    border-radius: 5px;
+}
+.story_Block{/*storyboard style*/
+    margin: 10px 75px 10px 75px;
+    color: blue;
+    display: inline-block;
+}
+
+.story_title{/*storyboard title style*/
+    text-align: center;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.story_content{/*storyboard content style*/
+    height: auto;
+}
+
+.story_title,.story_content{/*common style*/
+    width: 360px;
+    border: none;
+    /*padding:5px;*/
+}
+
+.clear_left{
+    clear:left;
+}
+.fa {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }
