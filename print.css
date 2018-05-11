@@ -1,0 +1,36 @@
+h1,h2,h3{/*set up the heading format*/
+   text-align: center;
+   font-weight: bold;
+   color: #black;
+}
+#menu {
+  width: 100%;
+  height:35px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #white;/*menu's background-color*/
+  border-radius: 6px;/*radius on the angel of the rectangular*/
+  margin: 15px auto;
+}
+#menu ul{
+  text-align: center;/*set up the text position*/
+  height: auto;
+  padding: 8px 0px;
+}
+#menu li{/*set up the display mode*/
+  display: inline;
+  padding: 22px;
+}
+.general_table table,tr,th,td{
+	border : 1px solid black;
+	align: center;
+	margin: 10px auto;
+  background-color: #white;
+  radius:2px;
+  text-align: center;
+  border-radius: 6px
+}
+.general_table td{
+  border : 1px solid black;
+}
