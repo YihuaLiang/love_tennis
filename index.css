@@ -5,7 +5,7 @@ h1,h2,h3{/*set up the heading format*/
    font-weight: bold;
    color: #33cc33;
 }
-.rss_center{
+.rss_center{ /*put the rss at center and control paragraph, also used for passion and MyExperience*/
   margin: 0px auto;
   text-align: center;
   color: white;
@@ -18,7 +18,7 @@ h1,h2,h3{/*set up the heading format*/
   font-size: 25px;
 }
 
-.center_align{
+.center_align{/*put a paragraph at center */
   text-align: center;
   color: white;
 }
@@ -34,7 +34,7 @@ body {/*set up background and font color*/
   color: green;
   text-decoration: none;
 }
-.pic-center{
+.pic-center{/*put picture center, used in hoempage*/
   text-align:center;
 	display: block;
 	border-radius: 6px;
@@ -55,6 +55,7 @@ body {/*set up background and font color*/
   padding-left: 60px;
   width: 1060px;
 }
+/*control every photo*/
 .gallery{
   margin: 21px;
   border 1px solid #ccc;
@@ -68,13 +69,13 @@ body {/*set up background and font color*/
   width: 100%;
   height:auto;
 }
-
+/*control description*/
 .desc{
   padding: 15px;
   text-align: center;
   color: blue;
 }
-/*control the picture on the left*/
+/*control the picture on the left homepage*/
 #pic-tennis{
     line-height: 20px;
     margin-left: 20px;
@@ -143,6 +144,7 @@ label {
   display: inline-block;
   text-shadow: grey;
 }
+/*control the button format*/
 input[type=submit]{
   margin-top: 6px;
   background-color: #33cc33;
@@ -202,6 +204,7 @@ input[type=button]{
         margin-top: 0;
     }
 }
+/*control a general_table style*/
 .general_table table,tr,th,td{
 	border : 1px solid black;
 	align: center;
@@ -214,6 +217,7 @@ input[type=button]{
 .general_table td{
   border : 1px solid black;
 }
+/*a no border table and container*/
 .no_border{
   background-color: #e1e1d0;/*menu's background-color*/
   border-radius: 6px;/*radius on the angel of the rectangular*/
@@ -239,53 +243,10 @@ video{
   width: 100%;
   height: 100%;
 }
-.story_Block{
-    background-color: #e1e1d0;
-    margin: 20px auto 20px auto;
-    border-width: 1px;
-    height: 820px;
-    width: 1060px;
-    padding:10px;
-    border-radius: 5px;
-}
-.video_block{/*storyboard style*/
-    color: blue;
-    display: inline-block;
-    height: 400px;
-    top:550px;
-    width: 600px;
-    margin-left:-270px;
-    left:50%;
-    position:absolute;
-}
-
-.story_title{/*storyboard title style*/
-    text-align: center;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    font-weight: bold;
-    color:blue;
-    font-size: 24px;
-}
-
-.img_Block{
-    width:600px;
-    height:400px;
-    left:50%;
-    position:absolute;
-    margin-left:-270px;
-}
-
-.img_Block img{
-    width:100%;
-    height:100%;
-}
-
-
 .clear_left{
     clear:left;
 }
+/*control social button fonts*/
 .fa {
     margin: 10px;
     padding: 20px;
